@@ -1,0 +1,164 @@
+body {
+  font-family: Roboto;
+  font-size: 16px;
+  color: #000000;
+  background: rgb(224, 247, 216);
+}
+body > *:not(nav):not(footer) {
+  margin: 100px 0;
+}
+h2,
+h1 {
+  color: #212121;
+}
+h2 {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+h3{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size:50px ;
+  font-weight: 500;
+font:bolder;
+}
+button {
+  padding: 20px;
+}
+li.nav-item {
+  margin: 0 20px;
+}
+
+.p40 {
+  padding: 40px 0 0 !important;
+}
+.option:nth-child(even) {
+  margin: 150px 0 0 150px;
+}
+.option:nth-child(odd) {
+  margin-top: -150px;
+}
+.option {
+  overflow: hidden;
+  border: solid 2px rgba(197, 197, 197, 0.15);
+  border-radius: 6px;
+  transition-duration: 0.3s;
+}
+.option:hover {
+  border: solid 2px white;
+}
+.option:hover,
+.btn-red {
+  background-color: #de3c3c;
+  color: white;
+}
+.option:hover > h2 {
+  color: #ffffff;
+}
+.option > img {
+  border-radius: 50%;
+  background-color: rgba(197, 197, 197, 0.15);
+}
+.option > * {
+  margin: 20px;
+}
+.option:hover > img {
+  background-color: #ffffff;
+  filter: grayscale(100%);
+}
+.option:hover::before,
+.option:hover::after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  top: 0;
+}
+.option:hover::before {
+  height: 200px;
+  width: 200px;
+  background-color: #ffaa64;
+  left: 0;
+  transform: translate(-50%, -50%);
+}
+.option:hover::after {
+  height: 300px;
+  width: 300px;
+  background-color: #c00000;
+  left: 100%;
+  transform: translate(-25%, -40%);
+}
+
+.img-portfolio {
+  position: absolute;
+}
+.img-portfolio.img-left:nth-child(1),
+.img-portfolio.img-right:nth-child(1) {
+  top: 0;
+  left: 20px;
+}
+.img-portfolio.img-left:nth-child(2),
+.img-portfolio.img-right:nth-child(2) {
+  top: 30px;
+  right: 0;
+}
+.img-portfolio.img-right:nth-child(3) {
+  top: 200px;
+  left: 0;
+}
+.img-portfolio.img-left:nth-child(3) {
+  bottom: 100px;
+  right: 50px;
+}
+.img-portfolio.img-left:nth-child(4),
+.img-portfolio.img-right:nth-child(4) {
+  bottom: 0;
+}
+.img-portfolio.img-left:nth-child(4) {
+  left: 0;
+}
+.img-portfolio.img-right:nth-child(4) {
+  right: 0;
+}
+.card {
+  border: none;
+  margin-bottom: 150px;
+}
+.card-body > div {
+  padding: 30px 0 0 0;
+}
+.card-body > div > h1 {
+  color: #ffaa64;
+}
+.card-footer {
+  background-color: #fff;
+}
+
+.img-gradient > div.m100,
+.queries {
+  box-shadow: 10px 20px 60px 0 rgba(0, 0, 0, 0.06);
+}
+.queries {
+  width: 60%;
+  margin: -200px auto 100px auto;
+  padding: 30px;
+  border-radius: 6px;
+  background-color: #fff;
+}
+.queries > button {
+  margin: 20px;
+}
+.queries > button.chat {
+  border: solid 1px #323643;
+}
+.img-gradient {
+  padding: 50px;
+  background: url("../img/mask.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 100% auto;
+}
+.img-gradient > p {
+  margin: 0 auto 100px;
+}
+
